@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import '~materialize-css/dist/css/materialize.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}

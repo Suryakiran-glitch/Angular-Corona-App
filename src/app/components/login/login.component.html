@@ -1,0 +1,35 @@
+<div class="login-component">
+  <div class="container">
+    <div class="row" >
+      <div class="col s12 m6" style="margin: 150px auto;" >
+        <div class="carousel" [@fadeInOnEnter]>
+          <a class="carousel-item" href="#one!"><img src="https://images.unsplash.com/photo-1583324113626-70df0f4deaab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80" alt="corona"></a>
+          <a class="carousel-item" href="#two!"><img src="https://images.unsplash.com/photo-1601055283742-8b27e81b5553?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt=""></a>
+          <a class="carousel-item" href="#three!"><img src="https://images.unsplash.com/photo-1586329973201-5eba1544e147?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt=""></a>
+          <a class="carousel-item" href="#four!"><img src="https://images.unsplash.com/photo-1591185157258-11aec5f039d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt=""></a>
+          <a class="carousel-item" href="#five!"><img src="https://images.unsplash.com/photo-1585222515068-7201a72c4181?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" alt=""></a>
+        </div>
+      </div>
+      <div class="col s12 m6" style="margin: 150px auto;">
+
+          <div class="card-panel center z-depth-5">
+            <form (ngSubmit)="submitHandler(f)" #f="ngForm" >
+              <h4 class="black-text">Login</h4>
+              <div class="input-field">
+                <input type="email" name="email" id="email" ngModel data-error="invalid" data-success="Valid" class="validate" />
+                <label for="email">E-mail</label>
+              </div>
+              <div class="input-field">
+                <input type="email" name="password" ngModel id="password" />
+                <label for="password">Password</label>
+              </div>
+              <button class="btn black white-text waves-effect waves-light" type="submit">Submit
+                <i class="material-icons right">send</i>
+              </button>
+            </form>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</div>

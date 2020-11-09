@@ -1,0 +1,17 @@
+.image {
+  background: url('https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.card-panel{
+  margin-top: 80px;
+}
+
+.heading {
+  font-size: 18px;
+ letter-spacing: 2px;
+ line-height: 3px;
+}

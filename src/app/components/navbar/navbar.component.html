@@ -1,0 +1,11 @@
+<nav class="black white-text">
+  <div class="nav-wrapper">
+    <a href="#" [routerLink]="['']" routerLinkActive="router-link-active" class="brand-logo">{{'corona-app' | titlecase}}<i class="material-icons">local_hospital</i></a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li [routerLink]="['login']" *ngIf="!email"><a class="waves-effect waves-light" >Login</a></li>
+      <li [routerLink]="['signup']" *ngIf="!email"><a class="btn white black-text waves-effect waves-black">Signup</a></li>
+      <li *ngIf="email" (click)="signout()"><a class="waves-effect waves-light" >Logout</a></li>
+    </ul>
+  </div>
+</nav>
+

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "corona-app"
+    }
+  },
+  "defaultProject": "corona-app",
+  "cli": {
+    "analytics": false
+  }
 }

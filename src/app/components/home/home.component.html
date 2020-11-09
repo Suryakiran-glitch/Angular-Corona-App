@@ -1,0 +1,27 @@
+<div class="home">
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="card-panel center teal white-text">
+        <h5>Total Cases</h5>
+        <h6 [countUp]="total"></h6>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card-panel center orange white-text">
+        <h5>Recovered</h5>
+        <h6 [countUp]="discharged"></h6>
+      </div>
+  </div>
+  <div class="col s12 m4">
+      <div class="card-panel center purple white-text">
+        <h5>Total Deaths</h5>
+        <h6 [countUp]="Deaths"></h6>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+      <div class="image" [@fadeInOnEnter]>
+        <img src="https://c4.wallpaperflare.com/wallpaper/804/999/633/flag-india-artistic-1920x1080-wallpaper-preview.jpg" alt="Flag" class="responsive-img"/>
+    </div>
+  </div>
+</div>
